@@ -14,43 +14,43 @@ export default function GalleryPage() {
       title: "Main Deity",
       description: "The sacred idol of Goddess Devi",
     },
-    {
-      src: "/placeholder.svg?height=400&width=600",
-      title: "Temple Architecture",
-      description: "Beautiful traditional architecture",
-    },
+    // {
+    //   src: "/placeholder.svg?height=400&width=600",
+    //   title: "Temple Architecture",
+    //   description: "Beautiful traditional architecture",
+    // },
     {
       src: "/Festivals/agandam.jpg",
       title: "Festival Celebration",
-      description: "Devotees during Navratri festival",
+      description: "Devotees during Shravana Shanivara",
     },
     {
       src: "/Festivals/annadanam.jpg",
       title: "Annadanam",
-      description: "Devotees in prayer and meditation",
+      description: "Devotees relishing Amma’s divine prasadam, a sacred offering filled with Love and Blessings",
     },
     {
-      src: "/placeholder.svg?height=400&width=600",
-      title: "Temple Gardens",
-      description: "Peaceful gardens surrounding the temple",
+      src: "/Amma/AmmaPhoto8.jpg",
+      title: "Sacred Devi idol",
+      description: "Amma’s idol carried with love and devotion during special processions",
     },
     {
-      src: "/placeholder.svg?height=400&width=600",
+      src: "/Amma/AmmaPhoto5.jpg",
       title: "Evening Aarti",
-      description: "Beautiful evening prayer ceremony",
+      description: "Beautiful evening prayer",
     },
+    // {
+    //   src: "/placeholder.svg?height=400&width=600",
+    //   title: "Temple Entrance",
+    //   description: "Grand entrance with traditional design",
+    // },
+    // {
+    //   src: "/placeholder.svg?height=400&width=600",
+    //   title: "Community Kitchen",
+    //   description: "Free meal service for devotees",
+    // },
     {
-      src: "/placeholder.svg?height=400&width=600",
-      title: "Temple Entrance",
-      description: "Grand entrance with traditional design",
-    },
-    {
-      src: "/placeholder.svg?height=400&width=600",
-      title: "Community Kitchen",
-      description: "Free meal service for devotees",
-    },
-    {
-      src: "/placeholder.svg?height=400&width=600",
+      src: "/Amma/AmmaPhoto7.jpg",
       title: "Sacred Rituals",
       description: "Daily worship and ceremonies",
     },
@@ -93,6 +93,7 @@ export default function GalleryPage() {
                   alt={image.title}
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
+                  objectFit="cover"
                 />
               </div>
               <div className="p-4">

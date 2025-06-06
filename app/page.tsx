@@ -14,9 +14,9 @@ export default function HomePage() {
   // Goddess images for carousel
   const goddessImages = [
     "/Amma/AmmaPhoto1.jpg",
-    "/Amma/AmmaPhoto2.jpg",
-    "/Amma/AmmaPhoto3.jpg",
-    "/Amma/AmmaPhoto4.jpg",
+    "/Amma/AmmaPhoto9.jpg",
+    "/Amma/AmmaPhoto7.jpg",
+    "/Amma/AmmaPhoto8.jpg",
     "/Amma/AmmaPhoto5.jpg",
   ]
 
@@ -277,8 +277,8 @@ export default function HomePage() {
                       src={image || "/Amma/AmmaPhoto1.jpg"}
                       alt={`Goddess Image ${index + 1}`}
                       width={800}
-                      height={400}
-                      className="w-full h-96 object-cover"
+                      height={600}
+                      className="object-center w-full h-full object-cover"
                     />
                   </div>
                 ))}

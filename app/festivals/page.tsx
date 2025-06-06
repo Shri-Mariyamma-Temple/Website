@@ -7,48 +7,32 @@ export default function FestivalsPage() {
     {
       name: "Shivaratri",
       description: "Experience the divine Shivaratri at Amma Temple, where devotees fast, offer prayers, and break their fast with Amma’s sacred prasadam",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/Amma/AmmaPhoto1.jpg",
       timings: "6:00 AM - 10:00 PM",
       specialEvents: ["Divine Night Aarti", "Cultural Programs", "Annadanam"],
     },
     {
-      name: "Diwali",
-      description: "Festival of lights celebrating the victory of light over darkness",
-      image: "/placeholder.svg?height=300&width=400",
+      name: "Ugadi",
+      description: "Ugadi marks the traditional New Year in South India, celebrated with prayers, feasts, and the symbolic taste of life’s sweet and bitter moments.",
+      image: "/Amma/AmmaPhoto2.jpg",
       timings: "5:00 AM - 11:00 PM",
       specialEvents: ["Special Lakshmi Pooja", "Diya Lighting", "Sweet Distribution"],
     },
     {
-      name: "Devi Paksha",
+      name: "Shravana Shanivara",
       date: "March 8-15, 2025",
-      description: "Special week dedicated to the Divine Mother with elaborate rituals",
-      image: "/placeholder.svg?height=300&width=400",
+      description: "Observed during the holy month of Shravana, this Saturday is dedicated to Lord Shiva, marked by fasting and special temple rituals.",
+      image: "/Amma/AmmaPhoto4.jpg",
       timings: "4:00 AM - 10:00 PM",
       specialEvents: ["Abhishekam", "Havan Ceremony", "Devotional Singing"],
     },
     {
-      name: "Chaitra Navratri",
-      description: "Spring festival celebrating the divine feminine energy",
-      image: "/placeholder.svg?height=300&width=400",
+      name: "Navratri",
+      description: "A vibrant nine-night festival celebrating the divine feminine, with devotion, dance, and daily worship of different forms of Goddess Durga.",
+      image: "/Amma/AmmaPhoto5.jpg?height=300&width=400",
       timings: "5:30 AM - 9:30 PM",
-      specialEvents: ["Kanya Pooja", "Garba Dance", "Spiritual Discourses"],
-    },
-    {
-      name: "Guru Purnima",
-      date: "July 21, 2025",
-      description: "Honoring spiritual teachers and seeking divine guidance",
-      image: "/placeholder.svg?height=300&width=400",
-      timings: "6:00 AM - 9:00 PM",
-      specialEvents: ["Guru Vandana", "Satsang", "Blessed Food Distribution"],
-    },
-    {
-      name: "Janmashtami",
-      date: "August 26, 2025",
-      description: "Celebrating the birth of Lord Krishna with joy and devotion",
-      image: "/placeholder.svg?height=300&width=400",
-      timings: "12:00 AM - 11:59 PM",
-      specialEvents: ["Midnight Celebration", "Dahi Handi", "Bhajan Sandhya"],
-    },
+      specialEvents: ["Abhishekam", "Diya Lighting", "Devotional Singing"],
+    }
   ]
 
   return (
@@ -140,8 +124,7 @@ export default function FestivalsPage() {
             <div>
               <h4 className="text-lg font-semibold text-red-700 mb-3">Temple Etiquette:</h4>
               <ul className="space-y-2 text-gray-700">
-                <li>• Remove shoes before entering</li>
-                <li>• Maintain silence in prayer areas</li>
+                <li>• Maintain silence inside temple</li>
                 <li>• Follow queue system during festivals</li>
                 <li>• Photography allowed in designated areas only</li>
               </ul>
