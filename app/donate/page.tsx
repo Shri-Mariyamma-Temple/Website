@@ -321,7 +321,7 @@ export default function DonatePage() {
               <p className="text-2xl font-semibold text-yellow-200 mb-4">
                 May Amma bless you with a happy, peaceful, and prosperous life.
               </p>
-              <p className="text-lg text-yellow-100">"सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः"</p>
+              <p className="text-lg text-yellow-100">"ನೀವು ಕೊಡುವ ಎಲ್ಲವೂ ಅಮ್ಮನ ಸೇವೆಯೇ"</p>
               <p className="text-sm mt-2 text-yellow-100">May all beings be happy and free from illness</p>
             </div>
           </div>
