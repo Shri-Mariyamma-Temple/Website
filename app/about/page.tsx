@@ -163,20 +163,28 @@ export default function AboutPage() {
         </section> */}
 
         {/* Call to Action */}
+    <div className="text-center">
+      <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-lg shadow-lg p-8">
+        <h3 className="text-2xl font-bold mb-4">Join Our Celebrations</h3>
+        <p className="text-lg mb-6">
+          Be part of our spiritual community and experience the divine joy of festival celebrations
+        </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-  <Link
-    href="/gallery"
-    className="inline-block bg-yellow-500 hover:bg-yellow-600 text-red-800 font-semibold py-3 px-6 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-yellow-400 text-center"
-  >
-    View Gallery
-  </Link>
-  <Link
-    href="/donate"
-    className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-green-400 text-center"
-  >
-    Support Temple
-  </Link>
-</div>
+          <Link
+            href="/donate"
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+          >
+            Support Festivals
+          </Link>
+          <Link
+            href="/gallery"
+            className="bg-yellow-500 hover:bg-yellow-600 text-red-800 font-bold py-3 px-6 rounded-lg transition-colors"
+          >
+            View Gallery
+          </Link>
+        </div>
+      </div>
+    </div>
 
       </main>
     </div>
