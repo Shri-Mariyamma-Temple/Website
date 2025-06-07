@@ -157,6 +157,12 @@ export default function HomePage() {
               >
                 Festivals
               </Link>
+              <Link
+  href="/location"
+  className="text-white hover:text-yellow-200 font-semibold px-3 py-2 rounded transition-colors hover:bg-yellow-700 text-center text-sm"
+>
+  Location
+</Link>
             </div>
             <div className="pb-3">
               <Link
@@ -194,6 +200,12 @@ export default function HomePage() {
             >
               Festivals
             </Link>
+            <Link
+  href="/location"
+  className="text-white hover:text-yellow-200 font-semibold px-4 py-2 rounded transition-colors hover:bg-yellow-700"
+>
+  Location
+</Link>
             <Link
               href="/donate"
               className="bg-green-600 text-white hover:bg-green-700 font-bold px-6 py-2 rounded-lg transition-colors shadow-lg"
