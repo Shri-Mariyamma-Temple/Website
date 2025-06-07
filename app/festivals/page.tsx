@@ -9,14 +9,14 @@ export default function FestivalsPage() {
       description: "Experience the divine Shivaratri at Amma Temple, where devotees fast, offer prayers, and break their fast with Amma’s sacred prasadam",
       image: "/Amma/AmmaPhoto1.jpg",
       timings: "6:00 AM - 10:00 PM",
-      specialEvents: ["Divine Night Aarti", "Cultural Programs", "Annadanam"],
+      specialEvents: ["Sacred Night Aarti", "Cultural Programs", "Annadanam"],
     },
     {
       name: "Ugadi",
       description: "Ugadi marks the traditional New Year in South India, celebrated with prayers, feasts, and the symbolic taste of life’s sweet and bitter moments.",
       image: "/Amma/AmmaPhoto2.jpg",
       timings: "5:00 AM - 11:00 PM",
-      specialEvents: ["Special Lakshmi Pooja", "Diya Lighting", "Sweet Distribution"],
+      specialEvents: ["Special Pooja", "Diya Lighting", "Annadanam"],
     },
     {
       name: "Shravana Shanivara",
@@ -134,27 +134,27 @@ export default function FestivalsPage() {
 
         {/* Call to Action */}
         <div className="text-center">
-          <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-lg shadow-lg p-8">
-            <h3 className="text-2xl font-bold mb-4">Join Our Celebrations</h3>
-            <p className="text-lg mb-6">
-              Be part of our spiritual community and experience the divine joy of festival celebrations
-            </p>
-            <div className="space-x-4">
-              <Link
-                href="/donate"
-                className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
-              >
-                Support Festivals
-              </Link>
-              <Link
-                href="/gallery"
-                className="bg-yellow-500 hover:bg-yellow-600 text-red-800 font-bold py-3 px-6 rounded-lg transition-colors"
-              >
-                View Festival Photos
-              </Link>
-            </div>
-          </div>
+      <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-lg shadow-lg p-8">
+        <h3 className="text-2xl font-bold mb-4">Join Our Celebrations</h3>
+        <p className="text-lg mb-6">
+          Be part of our spiritual community and experience the divine joy of festival celebrations
+        </p>
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <Link
+            href="/donate"
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+          >
+            Support Festivals
+          </Link>
+          <Link
+            href="/gallery"
+            className="bg-yellow-500 hover:bg-yellow-600 text-red-800 font-bold py-3 px-6 rounded-lg transition-colors"
+          >
+            View Festival Photos
+          </Link>
         </div>
+      </div>
+    </div>
       </main>
     </div>
   )

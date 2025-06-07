@@ -22,7 +22,7 @@ export default function AboutPage() {
         {/* Temple History */}
         <section className="mb-12">
           <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-red-800 mb-6 text-center">Sacred History of Shri Devi Temple</h2>
+            <h2 className="text-3xl font-bold text-red-800 mb-6 text-center">Sacred History of Shri Mariyamma Temple</h2>
 
             <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
               <div>

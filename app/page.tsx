@@ -85,7 +85,7 @@ export default function HomePage() {
               </div>
               <div className="text-center">
                 <h1 className="text-2xl font-bold text-yellow-200 drop-shadow-lg">ಶ್ರೀ ಮಾರಿಯಮ್ಮ ದೇವಸ್ಥಾನ</h1>
-                <h2 className="text-lg font-semibold mt-1">Shri Mariamma Devasthanam</h2>
+                <h2 className="text-lg font-semibold mt-1">Shri Mariyamma Devasthanam</h2>
                 <p className="text-xs mt-1 text-yellow-100">Divine Blessings • Sacred Traditions • Eternal Peace</p>
               </div>
             </div>
@@ -364,7 +364,7 @@ export default function HomePage() {
               <p>Bhovi Colony, Ramamurthy Nagar</p>
               <p>Bengaluru - 560016</p>
               <p>Phone: +91 8660112244</p>
-              <p>Email: info@shrimariammadevasthanam.org</p>
+              <p>Email: shrimariyammatemple@gmail.com</p>
             </div>
 
             <div>
@@ -388,7 +388,7 @@ export default function HomePage() {
           </div>
 
           <div className="border-t border-red-700 mt-8 pt-4 text-center">
-            <p>&copy; 2025 Shri Mariamma Temple. All rights reserved. | Blessed by Divine Grace</p>
+            <p>&copy; 2025 Shri Mariyamma Temple. All rights reserved. | Blessed by Divine Grace</p>
           </div>
         </div>
       </footer>
