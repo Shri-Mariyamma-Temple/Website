@@ -20,7 +20,7 @@ export default function TrishulSplash() {
     >
       <div className="flex flex-col items-center">
         <Image
-          src="/trishul.png"
+          src="/Trishul/Trishul.png"
           alt="Trishul"
           width={120}
           height={120}
