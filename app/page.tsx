@@ -23,10 +23,10 @@ export default function HomePage() {
   // Latest notifications
   const notifications = [
     "Special Abhishekam ceremony on Friday at 6:00 AM",
-    "Temple will remain closed on Sunday for maintenance",
-    "Free Prasadam distribution every Tuesday evening",
-    "Monthly Pooja schedule updated - check festivals page",
-    "New darshan timings: 5:00 AM to 12:00 PM, 4:00 PM to 9:00 PM",
+    "Grand Arrival of New Shri Pothuraju Idols on Friday 13th June",
+    "Grand Procession of Pothuraju Idols on June 13th from 2 pm to 6 30 pm",
+    "Mahamangalarti at 7:30 pm on friday 13th June",
+    "Anna Prasadam Distribution at 8 pm on friday 13th june at temple premises",
   ]
 
   // Auto-slide carousel
@@ -157,12 +157,18 @@ export default function HomePage() {
               >
                 Festivals
               </Link>
-              <Link
+              <Link    
   href="/location"
   className="text-white hover:text-yellow-200 font-semibold px-3 py-2 rounded transition-colors hover:bg-yellow-700 text-center text-sm"
 >
   Location
 </Link>
+              <Link
+                href="/upcoming-events"
+                className="text-white hover:text-yellow-200 font-semibold px-3 py-2 rounded transition-colors hover:bg-yellow-700 text-center text-sm"
+              >
+                Events
+              </Link>
             </div>
             <div className="pb-3">
               <Link
@@ -206,6 +212,12 @@ export default function HomePage() {
 >
   Location
 </Link>
+            <Link
+              href="/upcoming-events"
+              className="text-white hover:text-yellow-200 font-semibold px-4 py-2 rounded transition-colors hover:bg-yellow-700"
+            >
+              Events
+            </Link>
             <Link
               href="/donate"
               className="bg-green-600 text-white hover:bg-green-700 font-bold px-6 py-2 rounded-lg transition-colors shadow-lg"
