@@ -16,7 +16,7 @@ const events: Event[] = [
   {
     date: "13 June 2025",
     title: "Arrival of New Pothuraju Idols",
-    description: "Join us for a special Ashada Friday pooja with abhishekam and prasadam distribution. All devotees are welcome.",
+    description: "Be a part of this receive the boundless blessings of Shri Mariyamma and Lord Pothuraju.",
     image: "/events/event1.jpg",
   }
 ]

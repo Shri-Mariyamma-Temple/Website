@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-
+import TrishulSplash from '@/components/TrishulSplash'
 export const metadata: Metadata = {
   title: 'Shri Mariyamma Temple',
   description: 'Shri Mariyamma Temple',
@@ -17,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <TrishulSplash/>
+        {children}
+        </body>
     </html>
   )
 }
